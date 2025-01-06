@@ -1,0 +1,66 @@
+Magic 271485
+Revision Verdi_O-2018.09-SP1
+
+; Window Layout <x> <y> <width> <height> <signalwidth> <valuewidth>
+viewPort 0 27 1920 373 214 65
+
+; File list:
+; openDirFile [-d delimiter] [-s time_offset] [-rf auto_bus_rule_file] path_name file_name
+openDirFile -d / "" "/anlab12/stuhome/zngz42/TCASII/rtl_TSMC40/rtl/PostProcessing_Top_new/new.fsdb"
+
+; file time scale:
+; fileTimeScale ### s|ms|us|ns|ps
+
+; signal spacing:
+signalSpacing 5
+
+; windowTimeUnit is used for zoom, cursor & marker
+; waveform viewport range
+zoom 0.000000 5917165.958206
+cursor 6357784.36879680865
+marker 0.000000
+
+; user define markers
+; userMarker time_pos marker_name color linestyle
+; visible top row signal index
+top 2
+; marker line index
+markerPos 12
+
+; event list
+; addEvent event_name event_expression
+; curEvent event_name
+
+
+
+COMPLEX_EVENT_BEGIN
+
+
+COMPLEX_EVENT_END
+
+
+
+; toolbar current search type
+; curSTATUS search_type
+curSTATUS ByChange
+
+
+addGroup "G1"
+activeDirFile "" "/anlab12/stuhome/zngz42/TCASII/rtl_TSMC40/rtl/PostProcessing_Top_new/new.fsdb"
+addSignal -h 15 /tb_PostProcessing_Top/PostProcessing_Top_inst/clk
+addSignal -h 15 -holdScope rst
+addSignal -h 15 -holdScope clken
+addSignal -h 15 -holdScope enable
+addSignal -h 15 -holdScope width[10:0]
+addSignal -h 15 -holdScope valid_final_L
+addSignal -h 15 -holdScope valid_final_R
+addSignal -h 15 -holdScope disp_L[639:0]
+addSignal -h 15 -holdScope disp_R[639:0]
+addSignal -h 15 -holdScope range[8:0]
+addSignal -h 15 -holdScope valid_final_hole
+addSignal -h 15 -holdScope disp_hole[639:0]
+addGroup "G2"
+
+; getSignalForm Scope Hierarchy Status
+; active file of getSignalForm
+

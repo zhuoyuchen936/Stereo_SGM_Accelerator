@@ -1,0 +1,16 @@
+rc file Version 1.0
+
+[Design]
+COMPILE_PATH=/anlab12/stuhome/zngz42/TCASII/rtl_TSMC40/rtl/PostProcessing_Top_new
+SystemC=FALSE
+UUM=FALSE
+KDB=FALSE
+USE_NOVAS_HOME=FALSE
+COSIM=FALSE
+TOP=tb_PostProcessing_Top sram_1920x40_dp_bit_en sram_1920x16_dp_bit_en sram_1920x160_dp_bit_en sram_1920x64_dp_bit_en sram_1920x32_dp_bit_en sram_1920x896_dp sram_1920x1152_dp sram_270x16_dp sram_270x80_dp sram_2048x8_dp sram_2048x16_dp 
+OPTION=-ssz -ssz -ssv -ssy 
+ELAB_OPTION=-ssz -ssz -ssv -ssy 
+
+[Value]
+WREALX=ffff534e50535f58
+WREALZ=ffff534e50535f5a

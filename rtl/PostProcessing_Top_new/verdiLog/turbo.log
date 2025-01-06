@@ -1,0 +1,2 @@
+Command Line: /anlabeda/Synopsysb/synopsys2018/verdi/O-2018.09-SP1/platform/LINUXAMD64/bin/Novas -sv -f filelist.f -ssf new.fsdb
+uname(Linux anlab012 3.10.0-1160.114.2.el7.x86_64 #1 SMP Wed Mar 20 15:54:52 UTC 2024 x86_64)
