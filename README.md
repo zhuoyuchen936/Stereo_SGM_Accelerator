@@ -3,16 +3,18 @@
 ## Env
 WSL-linux
 
-Install verilator dependencies & verilator v5.024
+### Install verilator dependencies & verilator v5.024
 
-https://verilator.org/guide/latest/install.html
-
+https://verilator.org/guide/latest/install.html //—安装教程，使用git最新版本到本地后编译+安装，不然默认apt版本太低，不支持tb.v
+https://blog.csdn.net/weixin_44699856/article/details/130253574 //—-讲了整个使用过程
+### install gtkwave
 ```
 sudo apt install gtkwave
 ```
-
+### install anaconda+python
 python = 3.10
 
+### install cocotb
 ```
 pip install cocotb==1.8.1
 pip install numpy
